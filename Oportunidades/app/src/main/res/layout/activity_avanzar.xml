@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estadisticas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:background="#FF2222"
+                android:text="fase 2"
+                android:textColor="#F5F0F0"
+                android:textSize="18sp"
+                android:textStyle="normal|italic" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:background="#FA6D0F"
+                android:text="Fase 3"
+                android:textColor="#F5F0F0"
+                android:textSize="18sp"
+                android:textStyle="normal|italic" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:background="#357EB8"
+                android:text="Fase 4"
+                android:textColor="#F5F0F0"
+                android:textSize="18sp"
+                android:textStyle="normal|italic" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:background="#00AEFF"
+                android:text="Fase 5"
+                android:textColor="#F5F0F0"
+                android:textSize="18sp"
+                android:textStyle="normal|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
