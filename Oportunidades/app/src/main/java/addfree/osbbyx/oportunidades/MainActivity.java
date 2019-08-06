@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Cualquier informacion comunicarse al siguiente correo: oportunidades@gmail.com", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
-        Toast toast = Toast.makeText(this, "Bienvenido Pedro!", Toast.LENGTH_LONG);
-        toast.show();
     }
 
     @Override
@@ -99,7 +97,7 @@ public class MainActivity extends AppCompatActivity
             Intent atras = new Intent(this,editarOportunidad.class);
             startActivity(atras);
         } else if (id == R.id.nav_toolss) {
-            Intent atras = new Intent(this,avanzar.class);
+            Intent atras = new Intent(this,concluirActivity.class);
             startActivity(atras);
         } else if (id == R.id.nav_toolsa) {
             Intent atras = new Intent(this,Estadisticas.class);
@@ -144,7 +142,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void avanzar(View view){
-        Intent atras = new Intent(this,avanzar.class);
+        Intent atras = new Intent(this,concluirActivity.class);
         startActivity(atras);
     }
 

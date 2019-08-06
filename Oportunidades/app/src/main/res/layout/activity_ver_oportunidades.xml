@@ -127,7 +127,7 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Contacto: alberto luciano perez"
+                android:text="Neceesidad: tuneles magnecticos"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -135,7 +135,7 @@
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fecha: 05/12/2019"
+                android:text="Consultor: Andrik Ramirez"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -143,7 +143,7 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cargo: Militar"
+                android:text="Fecha: 28/07/2019"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -151,7 +151,7 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Necesita: vender"
+                android:text="Presentacion 10, Demo10, poc 10"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -159,7 +159,7 @@
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Para: 06/12/2019"
+                android:text="Presentador: Enrique hernandez"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -167,7 +167,7 @@
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Presupuesto: $999999999999"
+                android:text="Modo: Presencial"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -177,20 +177,20 @@
                 android:visibility="gone" />
 
             <Button
-                android:id="@+id/button27"
+                android:id="@+id/button18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_red_light"
-                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_circulo_rojo"
                 android:onClick="mostrar3"
                 android:text="Empresa Chuiquis"
-                android:textColor="@android:color/background_light" />
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Presupuesto: $999999999999"
+                android:text="Neceesidad: tuneles magnecticos"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -198,7 +198,7 @@
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Para: 06/12/2019"
+                android:text="Consultor: Andrik Ramirez"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -206,7 +206,7 @@
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Necesita: vender"
+                android:text="Fecha: 28/07/2019"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -214,7 +214,7 @@
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cargo: Militar"
+                android:text="Presentacion 10, Demo10, poc 10"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -222,7 +222,7 @@
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fecha: 05/12/2019"
+                android:text="Presentador: Enrique hernandez"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -230,7 +230,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Contacto: alberto luciano perez"
+                android:text="Modo: Presencial"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -324,7 +324,7 @@
                 android:id="@+id/textView40"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Necesita: vender"
+                android:text="Propuesta: Encontrar la inmortalidad"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -340,7 +340,7 @@
                 android:id="@+id/textView42"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cargo: Militar"
+                android:text="Fecha de propuesta: 29/26/2019"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -348,7 +348,7 @@
                 android:id="@+id/textView43"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fecha: 05/12/2019"
+                android:text="Fue recibido por: Christina aguilera"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -356,7 +356,7 @@
                 android:id="@+id/textView44"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Contacto: alberto luciano perez"
+                android:text="prpuestas: 10,9,10"
                 android:textSize="18sp"
                 android:visibility="gone" />
 
@@ -387,7 +387,7 @@
                 android:id="@+id/textView46"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Necesita: vender"
+                android:text="Propuesta: Encontrar la inmortalidad"
                 android:textSize="18sp"
                 android:visibility="gone" />
 

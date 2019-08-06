@@ -18,7 +18,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="260dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -36,7 +36,7 @@
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
-                    android:layout_height="276dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@mipmap/mas"
                     android:drawableBottom="@drawable/ic_avanzar_125dp_white"
@@ -48,13 +48,13 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="260dp"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/button13"
                     android:layout_width="400dp"
-                    android:layout_height="273dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@mipmap/purple"
                     android:drawableBottom="@drawable/ic_avanzar_125dp_white"
@@ -66,7 +66,7 @@
                 <Button
                     android:id="@+id/button14"
                     android:layout_width="match_parent"
-                    android:layout_height="273dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@mipmap/rojo"
                     android:drawableBottom="@drawable/ic_avanzar_125dp_white"
@@ -79,7 +79,7 @@
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
-                android:layout_height="192dp"
+                android:layout_height="195dp"
                 android:background="@mipmap/mamei"
                 android:drawableBottom="@drawable/ic_avanzar_125dp_white"
                 android:text="Fase 3 es la fase con mas cancelacion"

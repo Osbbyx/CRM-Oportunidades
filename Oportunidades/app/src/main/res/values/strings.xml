@@ -7,13 +7,13 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Ajustes</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Inicio</string>
     <string name="crear_op">Crear Oportunidad</string>
     <string name="v_op">Ver Oportunidad</string>
     <string name="modificar">Modificar</string>
     <string name="avanzar">Avanzar de fase</string>
     <string name="estadisticas">Estadisticas</string>
     <string name="perfil">Perfil</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string>
 </resources>

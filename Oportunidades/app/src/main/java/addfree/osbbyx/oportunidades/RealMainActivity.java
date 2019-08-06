@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 public class RealMainActivity extends AppCompatActivity {
 
@@ -19,6 +20,8 @@ public class RealMainActivity extends AppCompatActivity {
     public void login(View view){
         Intent login = new Intent(this,MainActivity.class);
         startActivity(login);
+        Toast toast = Toast.makeText(this, "Bienvenido Pedro!", Toast.LENGTH_LONG);
+        toast.show();
         finish();
     }
     public void crearOportunidad(View view){

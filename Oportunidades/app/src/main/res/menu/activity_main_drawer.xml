@@ -37,7 +37,7 @@
             android:title="@string/perfil" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Comunicacion">
         <menu>
             <item
                 android:id="@+id/nav_share"

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".concluirActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/modificar"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa Acuarela"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/a1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/a2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluira"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa Prados"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluirb"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa Chuiquis"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/c1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/c2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluirc"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa empanaditas"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/d1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/d2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluird"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa rustica"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/e1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/e2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluire"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:drawableLeft="@drawable/ic_bubble_chart_black_24dp"
+                android:text="Empresa jueguitos"
+                android:textColor="@android:color/background_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/f1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#6F6666"
+                    android:drawableLeft="@android:drawable/ic_media_ff"
+                    android:onClick="avanzar"
+                    android:text="@string/avanzar"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/f2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#A09393"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    android:onClick="concluirf"
+                    android:text="Concluir"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

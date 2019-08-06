@@ -23,8 +23,11 @@ public class VerOportunidades extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ver_oportunidades);
 
+        //Icono en el nav
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
 
         tw1 = (TextView)findViewById(R.id.et1);
         tw2 = (TextView)findViewById(R.id.et2);
@@ -103,7 +106,7 @@ public class VerOportunidades extends AppCompatActivity {
             tw10.setVisibility(View.VISIBLE);
             tw11.setVisibility(View.VISIBLE);
             tw12.setVisibility(View.VISIBLE);
-            cambio = 1;
+            cambio2 = 1;
         }else{
             cambio2 = 0;
             tw7.setVisibility(View.GONE);
@@ -125,7 +128,7 @@ public class VerOportunidades extends AppCompatActivity {
             tw16.setVisibility(View.VISIBLE);
             tw17.setVisibility(View.VISIBLE);
             tw18.setVisibility(View.VISIBLE);
-            cambio = 1;
+            cambio3 = 1;
         }else{
             cambio3 = 0;
             tw13.setVisibility(View.GONE);
@@ -147,7 +150,7 @@ public class VerOportunidades extends AppCompatActivity {
             tw22.setVisibility(View.VISIBLE);
             tw23.setVisibility(View.VISIBLE);
             tw24.setVisibility(View.VISIBLE);
-            cambio = 1;
+            cambio4 = 1;
         }else{
             cambio4 = 0;
             tw19.setVisibility(View.GONE);
@@ -169,7 +172,7 @@ public class VerOportunidades extends AppCompatActivity {
             tw28.setVisibility(View.VISIBLE);
             tw29.setVisibility(View.VISIBLE);
             tw30.setVisibility(View.VISIBLE);
-            cambio = 1;
+            cambio5 = 1;
         }else{
             cambio5 = 0;
             tw25.setVisibility(View.GONE);
@@ -191,7 +194,7 @@ public class VerOportunidades extends AppCompatActivity {
             tw34.setVisibility(View.VISIBLE);
             tw35.setVisibility(View.VISIBLE);
             tw36.setVisibility(View.VISIBLE);
-            cambio = 1;
+            cambio6 = 1;
         }else{
             cambio6 = 0;
             tw31.setVisibility(View.GONE);
